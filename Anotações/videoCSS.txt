@@ -1,0 +1,24 @@
+Para configurar um vídeo:
+
+COLOCAR DENTRO DE UMA DIV:
+
+<div>
+	...
+</div>
+
+CONFIGURAR EM CSS:
+
+div.video{
+    background-color: var(--cor5);
+    margin:0px -20px 30px -20px;
+    padding: 20px;
+}
+
+DEPOIS CONFIGURAR O IFRAME QUE VEM EXTERNAMENTE:
+div.video>iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}

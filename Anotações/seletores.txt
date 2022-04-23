@@ -1,0 +1,72 @@
+Para usar configurações diferentes em css podemos utilizar o id em html:
+<h1 id="principal">Criando sites em HTML e CSS</h1>
+
+e configura-lo em CSS:
+
+h1#principal {
+    text-align: center;
+}
+
+em HTML id em CSS é #
+
+Para dois ou mais elementos podemos utilizar o class em html:
+<h2 class="basico">Html Básico</h2>
+
+e configurar em CSS:
+
+.basico{
+    color:#433AF2 ;
+}
+em HTML class em CSS é .
+
+PSEUDO-CLASSES
+
+Para configurar o estado de algo:
+
+exemplo:
+<div id="d1">01</div>
+//configurando a div id 01 em HTML
+
+div{
+     background-color: aquamarine;
+   }
+//configurando todas as div para o fundo aquamarine
+
+div:hover{
+            background-color: brown;
+        }
+//configurando para quando o mouse passar por cima da div o fundo mundar para brown
+para determinar uma pseudo-classe usar os :
+
+RESUMO:
+
+# = id
+	exemplo:
+		h1#principal {
+    		text-align: center;
+		}
+
+. = class
+
+	exemplo:
+
+		.basico{
+    			color:#433AF2 ;
+		}
+
+: = pseudo-classes
+
+	exemplo:
+		div:hover{
+            background-color: brown;
+        }
+
+:: = Pseudo elementos
+
+	exemplo:
+		.especial::after{
+            content: '(link)';
+	}
+		
+
+> = children

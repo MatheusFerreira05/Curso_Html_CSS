@@ -1,0 +1,15 @@
+Alinhamentos:
+
+Os textos normalmente vem por padrõ alinhados a esquerda mas podemos utilizar as 4 formas:
+
+ text-align: left;//alinhando a esquerda
+
+ text-align: center;//alinhando no centro
+ 
+ text-align: right;//alinhando a direita
+
+  text-align: justify;//alinhando da esquerda e direita(geralmente parágrafos ficam alinhados dessa forma)
+
+Para inicios de parágrafos utilizar a declaração:
+	
+ text-indent: 30px;

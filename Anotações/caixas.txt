@@ -1,0 +1,69 @@
+Altura = height
+
+Largura = width
+
+Linha em volta do conteudo = border
+
+Espaço entre conteúdo e a borda (Espaço interno) = padding
+
+Espaço entre dois conteúdos (Espaço externo) = margin
+
+Traçado em volta da borda = outline
+
+
+Tipos de Caixa:
+
+Box-level: 
+	  - se inicia na próxima linha
+	  - ocupa toda a largura da página
+
+exemplos: <div>
+	  <h1> - <h6>
+	  <p>
+	  <main>
+	  <header>
+          <nav>
+          <article>
+          <aside>
+	  <footer>
+	  <form>
+	  <video>
+
+inline-level: 
+	     - se inicia na mesma linha
+	     - ocupa apenas o local do conteúdo
+
+exemplos: <span>
+	  <a>
+	  <code>
+          <small>
+   	  <strong>
+	  <em>
+	  <sup> - <sub>
+	  <label>
+	  <button>
+	  <input>
+	  <select>
+
+Para alinhar uma caixa no meio da página:
+
+	margin: auto;
+
+
+Sombras:
+box-shadow: 1px 1px 1px black;
+
+Arredondamento:
+ border-radius: 20px 20px 10px 0px;
+
+Bordas com imagens:
+<style>
+        h1{
+            border: 20px solid black;
+            padding: 10px;
+            border-image-source:url('borda.png');
+            border-image-slice: 20;
+            border-image-repeat: repeat;
+        }
+    </style>
+

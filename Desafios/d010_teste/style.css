@@ -1,0 +1,107 @@
+@font-face {
+    font-family: "Idroid";
+    src: url('fontes/idroid.otf') format('onpentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-family: 'Arial', Helvetica, sans-serif;
+    background-color: rgb(142, 248, 169);
+    text-align: center;
+}
+
+header{
+    padding: 15px;
+    background-image: linear-gradient(to bottom, #23cf23dc 10%,#17a317dc 50%,#118811dc);
+
+    box-shadow: 1px 5px 4px rgb(0 0 0 / 35%)
+}
+
+header>h1{
+    font-family: Verdana, Tahoma, sans-serif;
+    color: white;
+    text-align: center;
+
+    padding: 10px;
+    margin: 5px;
+}
+
+header>p{
+    color: white;
+    text-align: center;
+    font-weight: 10px;
+}
+
+nav{
+    padding: 15px;
+    margin: 0px;
+}
+
+nav>a{
+    padding: 10px;
+    color: white;
+
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav>a:hover{
+    text-decoration: underline;
+}
+
+main{
+    background-color: white;
+    padding: 10px;
+    margin: auto;
+
+    min-width: 320px;
+    max-width: 1000px;
+
+    box-shadow: 1px 5px 4px rgb(0 0 0 / 35%)
+}
+
+h2{
+    text-align: left;
+}
+
+h2.conteudo{
+    color: rgb(1, 94, 1);
+    background-image: linear-gradient(to right,#8adf8a,#99d699,#c9e4c9,white );
+    background-color: #c9e4c9 ;
+    font-family: 'Idroid',Arial, Helvetica, sans-serif;
+}
+
+a.link-verde{
+    color: green;
+}
+
+section#aprender-mais{
+    background-color: rgb(142, 248, 169);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px 20px;
+    box-shadow: 1px 5px 4px rgb(0 0 0 / 35%);
+}
+
+section>h2#aprender-mais{
+    color: white;
+    background-color: rgba(0, 252, 13, 0.637);
+    margin: 10px;
+    padding: 10px;
+
+   border-radius: 20px 20px 5px 5px;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    background-color: green;
+    padding: 10px;
+    margin: 2px;
+}
